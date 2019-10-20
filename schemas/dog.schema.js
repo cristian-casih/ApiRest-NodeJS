@@ -6,4 +6,4 @@ const SchemaDog = new mongoose.Schema({
     color: String
 })
 
-module.exports = mongoose.model('Cat', SchemaDog);
+module.exports = mongoose.model('dogs', SchemaDog);
